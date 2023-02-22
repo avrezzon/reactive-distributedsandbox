@@ -1,0 +1,9 @@
+server:
+  port: 8080
+
+services:
+  uri:
+    user: http://localhost:4203
+    account: http://localhost:4200
+    audit: http://localhost:4201
+    error: http://localhost:8088

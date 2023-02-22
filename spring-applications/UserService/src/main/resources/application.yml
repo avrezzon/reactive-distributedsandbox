@@ -1,0 +1,6 @@
+server:
+  port: 4203
+
+services:
+  uri:
+    loan: http://localhost:4204

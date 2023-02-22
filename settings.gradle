@@ -1,0 +1,12 @@
+rootProject.name = 'reactive-distributedsandbox'
+
+include 'spring-applications:AccountService'
+include 'spring-applications:AuditService'
+include 'spring-applications:OrchestrationService'
+include 'spring-applications:LoanService'
+include 'spring-applications:UserService'
+include 'spring-applications:ErrorService'
+findProject(':spring-applications:ErrorService')?.name = 'ErrorService'
+
+include 'spring-resources:SharedComponents'
+include 'spring-resources:RestCommunications'
